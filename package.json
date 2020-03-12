@@ -9,7 +9,7 @@
     "tsc": "tsc",
     "start:dev": "nodemon",
     "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/app.js"
+    "start": "npm run build && node build/index.js"
   },
   "repository": {
     "type": "git",
@@ -43,6 +43,7 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "helmet": "^3.21.3"
+    "helmet": "^3.21.3",
+    "winston": "^3.2.1"
   }
 }

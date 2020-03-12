@@ -1,0 +1,2 @@
+Do Not add any private credentials to .env file. It's for application defaults or settings.
+Please use service accounts or cloud provider secret manager service, e.g. Google Cloud Secret
