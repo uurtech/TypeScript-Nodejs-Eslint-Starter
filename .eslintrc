@@ -11,6 +11,6 @@
 
     ],
     "rules": { 
-        "no-console": 1 // Remember, this means error!
+        "no-console": 1 // gives warning when we forgot console.logs... 
       }
   }
